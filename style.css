@@ -73,3 +73,139 @@ nav .nav-right{
 }
 
 
+/*  main page *******************/
+
+.main{
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+    justify-content: space-around;
+    
+}
+
+.mobile-tab{
+  
+  width: 300px;
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-left: 30px;
+  padding: 0px 0 0 20px;
+  
+  
+}
+.phone-icon{
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+.color-tab{
+ width: 50%;
+  height: 500px;
+  margin-left: 30px;
+  padding-top: 70px;
+   
+   text-align: center;
+   
+}
+
+.letters{
+
+  font-family:  var(--font-family);
+  font-size: 150px;
+  font-weight: 500;
+ 
+  
+}
+
+.letters-bg{
+    font-family: var(--font-family);
+    font-size: 80px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.round{
+    width: 60px;
+    height:60px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 50px 0 0 100px;
+   
+}
+.colorHex{
+    font-size: 40px;  
+      text-transform:uppercase;
+}
+/* 
+.click-button{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+
+   
+} */
+
+.click-button{
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    background: transparent;
+    color: black;
+    letter-spacing:0.1rem;
+    display: inline-block;
+    font-weight: 700;
+    transition: all 0.3s linear;;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius:10px;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+  }
+.click-button:hover {
+    color: white;
+    background: var(--icon-color) ;
+  }
+
+
+
+@media(max-width:900px){
+  
+    body{
+
+        background-color:aquamarine;
+    }
+
+    .icon{
+
+        width: 30px;
+        height: 30px;
+        color:  blueviolet;
+        margin-right: 10px;
+    }
+    
+    .text-icon{
+        
+        font-size:20px; 
+    }
+    nav .nav-left{
+    
+        flex-basis: 30%;
+        margin-left: 30px;
+        border: 1px solid black;
+        
+    }
+    
+    nav .nav-right{
+        flex-basis: 30%;
+        border: 1px solid black;
+    }
+}
