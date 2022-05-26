@@ -1,7 +1,7 @@
 # Color-flipper-page
 
 
-<h4>This is a vanilla color flipper project built using HTML/CSS/JAVASCRIPT.</h4>
+<h3>This is a vanilla color flipper project built using HTML/CSS/JAVASCRIPT.</h3>
 
 <hr>
 
