@@ -2,65 +2,65 @@
 
 
 
-*{ 
+* {
 
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 
 }
 
-body{
+body {
     background-color: #ffe4c4;
-    
-  
+
+
 
 }
 
-:root{
+:root {
 
     --icon-color: blueviolet;
-    --font-family:  'Roboto', sans-serif;
+    --font-family: 'Roboto', sans-serif;
 }
 
 
 
 /*Nav-bar *******************/
 
-   .flex-box{
+.flex-box {
     display: flex;
     align-items: center;
 
-       
-   }
 
- .navigation{
-     width: 100%;
+}
+
+.navigation {
+    width: 100%;
     height: 70px;
     display: flex;
     background-color: antiquewhite;
     justify-content: space-between;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-   
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
 
 
 
 }
 
-nav .nav-left{
-    
+nav .nav-left {
+
     flex-basis: 30%;
     margin-left: 30px;
-    
+
 }
 
-nav .nav-right{
+nav .nav-right {
     flex-basis: 30%;
-    
+
 }
 
-.icon{
+.icon {
 
     width: 50px;
     height: 50px;
@@ -68,132 +68,137 @@ nav .nav-right{
     margin-right: 10px;
 }
 
-.text-icon{
-    font-size: 40px; 
+.text-icon {
+    font-size: 40px;
 }
 
 
 /*  main page *******************/
 
-.main{
+.main {
     width: 100%;
     height: 100vh;
     padding: 40px;
     justify-content: space-around;
-    
+
 }
 
-.mobile-tab{
-  
-  width: 300px;
-  height: 600px;
-  border: 2px solid black;
-  border-radius: 50px;
-  margin-left: 30px;
-  padding: 0px 0 0 20px;
-  
-  
+.mobile-tab {
+
+    width: 300px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-left: 30px;
+    padding: 0px 0 0 20px;
+
+
 }
-.phone-icon{
+
+.phone-icon {
     justify-content: space-around;
     margin-top: 20px;
     margin-right: 50px;
     padding-bottom: 30px;
 }
 
-.color-tab{
- width: 50%;
-  height: 500px;
-  margin-left: 30px;
-  padding-top: 70px;
-   
-   text-align: center;
-   
+.color-tab {
+    width: 50%;
+    height: 500px;
+    margin-left: 30px;
+    padding-top: 70px;
+
+    text-align: center;
+
 }
 
-.letters{
+.letters {
 
-  font-family:  var(--font-family);
-  font-size: 150px;
-  font-weight: 500;
- 
-  
+    font-family: var(--font-family);
+    font-size: 150px;
+    font-weight: 500;
+
+
 }
 
-.letters-bg{
+.letters-bg {
     font-family: var(--font-family);
     font-size: 80px;
     margin-bottom: 50px;
-    
+
 }
 
 
 
-.round{
+.round {
     width: 60px;
-    height:60px;
+    height: 60px;
     background-color: transparent;
     border-radius: 50%;
     border: 1px solid black;
     margin: 50px 0 0 100px;
-   
-}
-.colorHex{
-    font-size: 40px;  
-      text-transform:uppercase;
+
 }
 
-.click-button{
+.colorHex {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.click-button {
     font-family: var(--font-family);
     text-transform: uppercase;
     background: transparent;
     color: black;
-    letter-spacing:0.1rem;
+    letter-spacing: 0.1rem;
     display: inline-block;
     font-weight: 700;
-    transition: all 0.3s linear;;
+    transition: all 0.3s linear;
+    ;
     border: 2px solid black;
     cursor: pointer;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    border-radius:10px;
+    border-radius: 10px;
     font-size: 1rem;
     padding: 0.75rem 1.25rem;
-  }
+}
+
 .click-button:hover {
     color: white;
-    background: var(--icon-color) ;
-  }
+    background: var(--icon-color);
+}
 
-  
 
-@media(max-width:900px){
-  
-    body{
 
-        background-color:aquamarine;
+@media(max-width:900px) {
+
+    body {
+
+        background-color: aquamarine;
     }
 
-    .icon{
+    .icon {
 
         width: 30px;
         height: 30px;
-        color:  blueviolet;
+        color: blueviolet;
         margin-right: 10px;
     }
-    
-    .text-icon{
-        
-        font-size:20px; 
+
+    .text-icon {
+
+        font-size: 20px;
     }
-    nav .nav-left{
-    
+
+    nav .nav-left {
+
         flex-basis: 30%;
         margin-left: 30px;
         border: 1px solid black;
-        
+
     }
-    
-    nav .nav-right{
+
+    nav .nav-right {
         flex-basis: 30%;
         border: 1px solid black;
     }
