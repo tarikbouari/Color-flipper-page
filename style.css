@@ -142,17 +142,6 @@ nav .nav-right{
     font-size: 40px;  
       text-transform:uppercase;
 }
-/* 
-.click-button{
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    padding: 10px 20px;
-    background-color: blueviolet;
-    border-radius: 20px;
-
-   
-} */
 
 .click-button{
     font-family: var(--font-family);
